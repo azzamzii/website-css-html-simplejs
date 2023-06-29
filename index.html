@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+      <div class="additional-information">
+        <p>Don't forget to follow our social media to get special merch! <a href="#">click here</a></p>
+      </div>
+
+      <nav class="navbar" id="home">
+        <a href="#" class="navbar-logo">new<span>robotic</span>.</a>
+
+        <div class="navbar-nav">
+          <a href="#home">Home</a>
+          <a href="#content">Article</a>              
+          <a href="#developer">Developer</a>
+        </div>
+        <div class="navbar-extra">
+          <a href="#" id="more" onclick="show_content()"><i data-feather="settings"></i></a>
+          <center>
+            <div id="list-content">
+              <a href="#home">Home</a>
+              <a href="#content">Article</a>              
+              <a href="#developer">Developer</a>
+            </div>
+          </center>
+        </div>
+      </nav>
+
+      <div class="jumbotron" id="home">
+        <div class="content">
+          <h1>Explore Innovative<br /><span>Robotic</span> Solutions</h1>
+          <p>Discover cutting-edge robotic products and services designed <br>to transform your business.</br></p>
+          <a href="#" class="button">See Product</a>
+        </div>
+        <div class="jumbotron-photo">
+          <img src="img/jumbotron-photo.png" alt="newrobotic photo">
+        </div>
+      </div>
+      
+    </header>
+    <!-- header end -->
+
+    <!-- main start -->
+    <main>
+      <aside id="developer"> 
+        <article class="profile card">
+          <header>
+            <h2>Azzam Zhafran Imran</h2>
+            <p>Cloud Computing Student</p>
+          </header>
+          <div class="session">
+            <figure>
+              <center><img src="img/profile.png" /></center>
+            </figure>
+          <section>
+              <h4>Campus</h4>
+              <p>Brawijaya University</p>
+              <h4>Major</h4>
+              <p>Electrical Engineering</p>
+          </section></div>
+        </article>
+      </aside>
+      <div id="content" >
+        <h2>Our Article</h2>
+        <!-- article start -->
+        <article id="first-project" class="card">
+          <div class="content-project">                   
+            <h3>Phantom Auto UniCarriers Forklift</h3>
+            <p> Mitsubishi Logisnext Americas group, a leading North American provider and manufacturer of material handling and innovative automation and fleet solutions, announced today the partnership with Phantom Auto, a leading provider of interoperable remote operation software, to enable operators who are sitting up to thousands of miles away to remotely operate unmanned tuggers, pallet jacks, pallet jacks, counterbalances and more.
+            This unique remote human-in-the-loop technology enables logistics operators to ...
+            </p>
+            <a href="https://www.prnewswire.com/news-releases/phantom-auto-partners-with-mitsubishi-logisnext-americas-group-to-scale-up-remote-operation-for-unmanned-forklifts-301291041.html" target="_blank">read more</a>
+          </div>
+          <img src="img/content-3.jpg" alt="" class="featured-image">
+        </article>
+
+        <article id="second-project" class="card">
+          <div class="content-project">          
+            <h3>Fetch Mobile Manipulator</h3>
+            <p>The Fetch robot consists of a back-drivable 7 DOF arm with 7 degrees of freedom and a modular end effector on a mobile base. It is designed to detect and select items up to 6 kilograms off of warehouse shelves and has a grasping range from the floor to about 2 meters. With its autonomous navigation and collision free motion planning system this mobile manipulator can also be considered as a robotics research platform in addition to its main logistics applications. Built upon the open-source robot operating system ROS...
+            </p>
+            <a href="https://innovation-matrix.com/en/solutions/all-products/fetch/" target="_blank">read more</a></div>
+          <img src="img/content-4.jpg" alt="" class="featured-image">
+        </article>
+      </div>
+    </main>
+    <!-- main end -->
+    <footer>
+      <p>Created with <img src="img/icon-love.png"></img> by Azzam Zhafran Imran</a>, Student at Bangkit Academy 2023</p>
+    </footer>
+    
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
